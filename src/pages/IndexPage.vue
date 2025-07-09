@@ -9,8 +9,13 @@
       <q-input
         filled
         v-model="name"
+<<<<<<< Updated upstream
         label="ชื่อ-นามสกุล: *"
         hint="กรุณาใส่ชื่อเเละนามสกุล"
+=======
+        label="ชื่อ-นามสกุน *"
+        hint="กรุณาใส่ชื่อ-นามสกุน"
+>>>>>>> Stashed changes
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
