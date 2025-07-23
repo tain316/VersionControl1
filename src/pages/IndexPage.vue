@@ -9,13 +9,8 @@
       <q-input
         filled
         v-model="name"
-<<<<<<< Updated upstream
-        label="ชื่อ-นามสกุล: *"
-        hint="กรุณาใส่ชื่อเเละนามสกุล"
-=======
-        label="ชื่อ-นามสกุน *"
-        hint="กรุณาใส่ชื่อ-นามสกุน"
->>>>>>> Stashed changes
+        label="Your name *"
+        hint="Name and surname"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -68,8 +63,7 @@ export default {
             icon: 'warning',
             message: 'You need to accept the license and terms first'
           })
-        }
-        else {
+        } else {
           $q.notify({
             color: 'green-4',
             textColor: 'white',
