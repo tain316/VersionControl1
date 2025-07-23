@@ -63,7 +63,8 @@ export default {
             icon: 'warning',
             message: 'You need to accept the license and terms first'
           })
-        } else {
+        }
+        else {
           $q.notify({
             color: 'green-4',
             textColor: 'white',
